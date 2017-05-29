@@ -27,8 +27,7 @@ import { CallNumber } from '@ionic-native/call-number';
   ],
   imports: [
     BrowserModule,
-    IonicModule.forRoot(MyApp),
-    CallNumber
+    IonicModule.forRoot(MyApp)
   ],
   bootstrap: [IonicApp],
   entryComponents: [
@@ -42,6 +41,7 @@ import { CallNumber } from '@ionic-native/call-number';
   providers: [
     StatusBar,
     SplashScreen,
+    CallNumber
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })
