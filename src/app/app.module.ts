@@ -41,7 +41,7 @@ import { CallNumber } from '@ionic-native/call-number';
   providers: [
     StatusBar,
     SplashScreen,
-    CallNumber
+    CallNumber,
     {provide: ErrorHandler, useClass: IonicErrorHandler}
   ]
 })
